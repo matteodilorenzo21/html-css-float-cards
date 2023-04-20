@@ -22,3 +22,18 @@ body {
     max-width: 1080px;
     margin: 0 auto;
 }
+
+/* Header */
+header{
+    text-align: center;
+    padding: 2.5rem 0;
+}
+
+h1{
+    color: var(--title-color);
+}
+
+/* Main */
+section#main-txt > p{
+    text-align: center;
+}
