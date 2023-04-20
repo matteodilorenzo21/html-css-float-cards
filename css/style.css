@@ -1,3 +1,8 @@
+/* COLOR PALETTE
+header-title: #E53170
+email-contact: #58BCE6
+*/
+
 /* Reset properties */
 * {
     margin: 0;
@@ -15,4 +20,3 @@ body{
     max-width: 1080px;
     margin: 0 auto;
 }
-
