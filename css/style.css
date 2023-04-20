@@ -1,7 +1,9 @@
-/* COLOR PALETTE
-header-title: #E53170
-email-contact: #58BCE6
-*/
+/* Custom properties */
+:root {
+    --title-color: #E53170;
+    --contact-color: #58BCE6;
+    --card-text-color: #fff;
+}
 
 /* Reset properties */
 * {
@@ -11,12 +13,12 @@ email-contact: #58BCE6
 }
 
 /* Generics */
-body{
+body {
     font-family: Fredoka, 'Comic Sans';
 }
 
 /* Utilities */
-.container{
+.container {
     max-width: 1080px;
     margin: 0 auto;
 }
