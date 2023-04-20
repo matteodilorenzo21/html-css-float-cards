@@ -19,7 +19,7 @@ body {
 
 /* Utilities */
 .container {
-    max-width: 1080px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -36,4 +36,49 @@ h1{
 /* Main */
 section#main-txt > p{
     text-align: center;
+    padding-bottom: 3rem;
+}
+
+/* Floating Main */
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.card{
+    padding-left: 0.3rem;
+}
+
+.column{
+    text-align: left;
+    width: calc(100% / 3.099 - 0.25rem);
+    float: left;
+    background-color: #000;
+    color: #fff;
+    margin: 0.5rem 0.5rem;
+    border-bottom: 2px solid #000;
+}
+
+
+.card-content > img{
+    height: 95px;   
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.card-content > h3{
+    text-transform: uppercase;
+    padding-top: 0.7rem;
+}
+
+.card-content > p{
+    padding: 0.15rem;
+}
+
+.card-content > a {
+    text-decoration: none;
+    color: var(--contact-color);
+    text-align: left;
+    padding: 0.3rem default;
 }
